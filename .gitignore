@@ -1,0 +1,167 @@
+
+
+ass
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+<Plug>yankstack_after_pastedist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Type checker
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================================
+# Linux
+# =========================================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Vim
+*.swp
+*.swo
+Session.vim
+
+# tmux
+.tmux/
+.tmux.conf.local
+
+# =========================================
+# VSCode / IDE
+# =========================================
+.vscode/
+.idea/
+*.iml
+
+# =========================================
+# Logs
+# =========================================
+logs/
+*.log
+nohup.out
+
+# =========================================
+# Modal / Cloud / Training
+# =========================================
+wandb/
+tensorboard/
+runs/
+outputs/
+checkpoints/
+experiments/
+
+# HuggingFace cache
+.cache/
+huggingface/
+hf_cache/
+
+# DeepSpeed
+ds_config_zero*.json
+
+# Model files
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Large datasets
+data/
+datasets/
+
+# Temporary
+tmp/
+temp/
+
+# =========================================
+# OS files
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Secrets
+# =========================================
+.env.local
+.env.secret
+secrets/
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# =========================================
+# CUDA / Build
+# =========================================
+*.cu.o
+*.cubin
+*.fatbin
+
+# =========================================
+# Misc
+# =========================================
+profile_default/
+.ipython/
+
+# =========================================
+# Optional:
+# Keep placeholder folders
+# =========================================
+!checkpoints/.gitkeep
+!logs/.gitkeep
+!data/.gitkeep
