@@ -64,10 +64,13 @@ def run(cmd):
 
 @app.function(
     image=image,
-    gpu="A100",
+    # https://modal.com/docs/guide/gpu#specifying-gpu-type
+    gpu="RTX-PRO-6000",
     cpu=16,
     memory=65536,
-    timeout=86400,
+    # after 2 days, full stop not matter you have program running or not
+    timeout=172800,
+    # keep container alive for 1 hour after inactivity
     scaledown_window=3600,
     volumes={MOUNT_PATH: workspace},
 )
