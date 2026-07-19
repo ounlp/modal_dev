@@ -22,7 +22,7 @@ REPO_NAME = "YOUR_REPO"
 ---
 
 # 2. Launch shell
-
+setup modal command https://modal.com/docs/guide 
 ```bash
 modal shell dev.py::dev
 ```
